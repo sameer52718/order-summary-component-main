@@ -52,7 +52,7 @@ body{
 }
 
 .card-content p{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
     color: hsl(224, 23%, 55%);
     text-align: center;
@@ -83,6 +83,10 @@ body{
     color: hsl(245, 75%, 52%);
     font-weight: 700;
 }
+.inner-card a:hover{
+    color: hsl(245, 75%, 60%);
+}
+
 .inner-card h1{
     font-size: 14px;
 }
@@ -95,14 +99,22 @@ body{
     font-weight: 700;
     border-radius: 6px;
     font-size: 12px;
-    height: 30px;
+    height: 35px;
     width: 100%;
     box-shadow: 0 10px 40px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     color: white;
     background-color: hsl(245, 75%, 52%);
 }
 
+.btn:hover{
+    background-color: hsl(245, 75%, 60%);
+}
+
 #cancel-btn{
     margin-top: 10px;
     font-weight: 700;
+}
+
+#cancel-btn:hover{
+    color: hsl(223, 47%, 23%);
 }
